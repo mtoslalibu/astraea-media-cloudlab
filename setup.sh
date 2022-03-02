@@ -64,6 +64,10 @@ sudo docker build -t mert/media-microservices:latest .
 
 echo "Built media mcs from source " >> /local/mertlogs
 
+sudo chmod -R ugo+rwx /local
+echo "Change mod all files under local" >> /local/mertlogs
+
+
 
 ## build workload
 cd wrk2
