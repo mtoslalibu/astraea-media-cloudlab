@@ -60,7 +60,7 @@ git clone https://github.com/mtoslalibu/DeathStarBench.git
 cd /local/DeathStarBench/mediaMicroservices/docker/thrift-microservice-deps/cpp
 sudo docker build -t mert/thrift-microservice-deps:xenial .
 cd /local/DeathStarBench/mediaMicroservices
-sudo docker build -t mert/social-network-microservices:latest .
+sudo docker build -t mert/media-microservices:latest .
 
 echo "Built media mcs from source " >> /local/mertlogs
 
